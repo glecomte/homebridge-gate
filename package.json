@@ -1,0 +1,28 @@
+{
+  "name": "homebridge-gate",
+  "version": "1.0.1",
+  "description": "push button switch to open a gate or whatever, plugin for homebridge: https://github.com/nfarina/homebridge",
+  "main": "index.js",
+  "engines": {
+    "homebridge": ">=0.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "switch",
+    "gate",
+    "https",
+    "private ca"
+  ],
+  "author": "Gerard Le Comte <gerard.lecomte@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glecomte/homebridge-gate"
+  }
+}
